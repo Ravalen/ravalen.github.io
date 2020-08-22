@@ -1,0 +1,28 @@
+@font-face {
+    src: url(./Font/Audiowide-Regular.ttf);
+    font-family: tf;
+}
+
+
+.sutun {
+    float: left;
+    width: 18%;
+    padding: 5px;
+  }
+  
+
+  .kutu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.kutu img:hover {
+transform: scale(1.1);
+filter: drop-shadow( 4px 4px 4px white);  
+}
+
+.kutu p {
+    font-family: tf;
+    
+}

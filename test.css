@@ -1,0 +1,81 @@
+@font-face {
+    src: url(./Font/Audiowide-Regular.ttf);
+    font-family: tf;
+}
+
+.kutu {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 10px 50px 50px 50px;
+    border-radius: 30px;   
+}
+
+.kutu h1 {
+    font-family: "sans-serif";
+    background-color: orange;
+    border-radius: 30px;
+    font-size: 27px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    font-family: "tf"
+    
+}
+
+#skor {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-family: "tf"
+}
+
+.kutu #question {
+    font-family: "tf";
+    font-size: 30px;
+    color: orange;
+    
+}
+
+.buttons {
+    margin-top: 30px;
+    
+    
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: orange;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-family: "tf";
+    
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    animation-name: nb1;
+    animation-duration: 2s;
+    filter: drop-shadow( 2px 2px 2px white);
+}
+
+@keyframes nb1 {
+    from {background-color:orange ;}
+    to {background-color: crimson;}
+  }
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#ilerleme {
+    color: white;
+    font-size: 18px;
+    font-family: "tf"
+}

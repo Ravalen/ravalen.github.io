@@ -1,0 +1,190 @@
+@font-face {
+    src: url(./Font/Monoton-Regular.ttf);
+    font-family: sta;
+}
+@font-face {
+    src: url(./Font/Audiowide-Regular.ttf);
+    font-family: tf;
+}
+
+body {
+    background-image: url(./Görseller/lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg);
+    overflow-x: hidden;
+}
+
+.baslik {
+    background-image: url(./Görseller/gabriel-izgi-cfQEO_1S0Rs-unsplash.jpg);
+    padding: 12vh 8vh;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 30px;
+    background-position: -27% 25%;
+    background-size: cover;
+    
+}
+
+.logo {
+    font-family: sta;
+    font-size: 100px;
+    text-align: left;
+    position:absolute;
+	bottom: 60%;
+    right: 110px;
+    z-index: 4;
+    filter: drop-shadow( 11px 11px 11px crimson); 
+  
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+.logo a :hover{
+  filter: drop-shadow( 2px 2px 2px orange);
+  transform: scale(1.1);
+ 
+}
+
+.navbar {
+    background-color:rgba(255, 166, 0, 0.3);
+    border-radius: 30px;
+    position: relative;
+    z-index: 3; 
+    left: -5px;
+    top: -25px;
+    
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: tf;
+    filter: drop-shadow( 2px 2px 2px white);
+   
+}
+
+.navbar a:hover {
+    background-color: crimson;
+    animation-name: nb1;
+    animation-duration: 2s;
+    transform: scale(1.2);
+    border-radius: 30px;
+}
+
+@keyframes nb1 {
+  from {background-color:orange ;}
+  to {background-color: crimson;}
+}
+
+
+.navbar a.aktif {
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.paragraf {
+    margin: auto;
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 10px 50px 50px 50px;
+    border-radius: 30px;
+}
+
+
+.paragraf-iletisim {
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 10px 50px 50px 50px;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.paragraf-iletisim h1 {
+    background-color: orange;
+    border-radius: 30px;
+    font-size: 27px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    font-family: "tf"
+
+}
+
+.paragraf-iletisim p {
+    color: white;
+}
+
+.paragraf h1 {
+    background-color: orange;
+    border-radius: 30px;
+    font-size: 27px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    font-family: "tf"
+}
+
+.paragraf p {
+    color: white;
+}
+
+.pa1 {
+    font-size: 28px;
+    font-family: tf;
+    color: white;
+}
+
+.pa1 a  {
+    text-decoration:none;
+    color:orange;
+
+}
+
+.pa1 a:hover {
+    animation-name: nb2;
+    animation-duration: 2s;
+}
+
+.iletisim {
+    width: 90%;
+    margin-top: 30px;
+    height: auto;
+    padding: 20px;
+    font-size: 28px;
+    font-family: tf;
+
+}
+
+.yazi-iletisim { 
+    filter: drop-shadow(6px 6px 6px orange);   
+ 
+}
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+   
+}
+  
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
